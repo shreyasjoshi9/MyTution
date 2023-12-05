@@ -4,7 +4,7 @@ public class HelloWorld {
         num += 1;
         float num2 = 2;
         char alpha = 'a';
-        String name = "shreyas";
+        String name = "Shreyas";
 
         System.out.println(num);
         System.out.println(num2);
