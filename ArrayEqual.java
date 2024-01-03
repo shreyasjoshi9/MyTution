@@ -28,5 +28,6 @@ public class ArrayEqual {
         if (count == size) {
             System.out.println("Arrays are equal");
         }
+        scanner.close();
     }
 }

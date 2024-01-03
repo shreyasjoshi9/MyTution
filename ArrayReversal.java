@@ -26,5 +26,6 @@ public class ArrayReversal {
         for (int num : UserInput) {
             System.out.println(num + " ");
         }
+        scanner.close();
     }
 }

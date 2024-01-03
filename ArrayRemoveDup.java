@@ -25,5 +25,6 @@ public class ArrayRemoveDup {
                 System.out.println(num + " ");
             }
         }
+        scanner.close();
     }
 }

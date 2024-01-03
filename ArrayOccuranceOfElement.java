@@ -26,6 +26,7 @@ public class ArrayOccuranceOfElement {
             }
         }
         System.out.println("The element " + ele + " has occurred " + occ + " times in the array.");
+        scanner.close();
     }
 
 }

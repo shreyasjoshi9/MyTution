@@ -17,5 +17,6 @@ public class ArrayMinimumElement {
             }
         }
         System.out.println("The minimum number in the array is: " + value);
+        scanner.close();
     }
 }

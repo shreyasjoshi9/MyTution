@@ -24,6 +24,6 @@ public class ArrayOccurances {
             }
             System.out.println("Occurance of '" + UserInput[i] + "' is " + count + " times. ");
         }
-
+        scanner.close();
     }
 }

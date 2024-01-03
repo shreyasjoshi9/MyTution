@@ -15,5 +15,6 @@ public class ArrayLargestElement {
             }
         }
         System.out.println("The largest number in the array is: " + max);
+        scanner.close();
     }
 }

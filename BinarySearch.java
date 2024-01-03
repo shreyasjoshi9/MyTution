@@ -27,7 +27,7 @@ public class BinarySearch {
                 end = mid - 1;
             }
         }
-
         System.out.println("Element not found in the array.");
+        scanner.close();
     }
 }

@@ -29,5 +29,7 @@ public class ArraySmallestElement {
         }
         System.out.println("The minimum number in the array is: " + value);
         System.out.println("The second minimum number in the array is: " + UserInput[1]);
+        scanner.close();
     }
+
 }

@@ -21,9 +21,11 @@ public class ArraySumOfTwoNums {
                 if (UserInput[i] + UserInput[j] == sum) {
                     System.out.println("Elements (" + UserInput[i] + " , " + UserInput[j]
                             + ") from the array contribute to the given sum: " + sum);
+
                 }
             }
         }
+        scanner.close();
     }
 
 }

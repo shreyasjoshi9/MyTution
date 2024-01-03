@@ -26,5 +26,6 @@ public class ArrayEvenAndOddElements {
         }
         System.out.println("Even array elements are: " + even_count);
         System.out.println("Odd array elements are: " + odd_count);
+        scanner.close();
     }
 }

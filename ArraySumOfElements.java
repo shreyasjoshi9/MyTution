@@ -16,6 +16,7 @@ public class ArraySumOfElements {
         }
         System.out.println("Total sum of the array elements: " + sum);
         System.out.println("Average of the Array elements: " + (sum / size));
+        scanner.close();
     }
 
 }

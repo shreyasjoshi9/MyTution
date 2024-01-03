@@ -36,5 +36,6 @@ public class ArrayIntersection {
                 System.out.println(num + " ");
             }
         }
+        scanner.close();
     }
 }

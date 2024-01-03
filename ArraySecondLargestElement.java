@@ -21,7 +21,7 @@ public class ArraySecondLargestElement {
                 }
             }
         }
-
+        scanner.close();
         System.out.println("Second largest element : " + (UserInput[size - 2]));
     }
 }

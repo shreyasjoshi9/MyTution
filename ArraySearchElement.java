@@ -25,6 +25,7 @@ public class ArraySearchElement {
                 System.out.println("Position of the element is : " + i);
             }
         }
+        scanner.close();
     }
 
 }
