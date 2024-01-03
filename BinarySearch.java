@@ -12,6 +12,7 @@ public class BinarySearch {
         }
         System.out.println("Please enter the value to be searched in the array.");
         int val = scanner.nextInt();
+        scanner.close();
         int start = 0;
         int end = UserInput.length - 1;
 
@@ -28,6 +29,5 @@ public class BinarySearch {
             }
         }
         System.out.println("Element not found in the array.");
-        scanner.close();
     }
 }

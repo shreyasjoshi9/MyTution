@@ -9,7 +9,6 @@ public class ArrayReversal {
         int start = 0;
         int end = size - 1;
         int temp = 0;
-        int[] reverse = new int[size];
         for (int i = 0; i < size; i++) {
             System.out.println("Please Enter the value for the element : " + (i + 1));
             UserInput[i] = scanner.nextInt();
