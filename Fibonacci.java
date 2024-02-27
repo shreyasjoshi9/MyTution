@@ -9,7 +9,9 @@ public class Fibonacci {
         System.out.println(n2);
         for (int i = 1; i <= N - 1; i++) {
             n3 = n1 + n2;
+            if (n3<=N){
             System.out.println(n3);
+            }
             n1 = n2;
             n2 = n3;
         }

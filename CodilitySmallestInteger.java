@@ -22,7 +22,6 @@ public class CodilitySmallestInteger {
         // Implement your solution here
         Arrays.sort(A);
         int smallestPositive = 1;
-        // A = [-1, -3]
         for (int i = 0; i < A.length; i++) {
             if (A[i] == smallestPositive) {
                 smallestPositive++;
@@ -34,9 +33,8 @@ public class CodilitySmallestInteger {
     }
 
     public static void main(String[] args) {
-        // int[] A = { 1, 3, 6, 4, 1, 2 };
+        int[] A = { 1, 3, 6, 4, 1, 2 };
         // int [] A = {1,2,3};
-        int[] A = { -1, -3 };
         int result = solution(A);
         System.err.println(result);
     }
