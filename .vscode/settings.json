@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "dependancies\\selenium-java-3.14.0.jar"
+    ],
+    "java.project.sourcePaths": [
+        "."
+    ]
+}

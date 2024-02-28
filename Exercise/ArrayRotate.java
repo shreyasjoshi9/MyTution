@@ -2,11 +2,12 @@ package Exercise;
 
 public class ArrayRotate {
     public static void main(String[] args) {
-    int[] N = {2,1,3,7};
+    int[] N = {1,3,7,2};
     int k = 1;
     while (k>0){
         if (N.length <= 1){
             System.out.println("Can not rotate the array elements with length 0 or 1");
+            System.exit(N[0]);
         }
         int last = N[N.length - 1];
         for (int i = N.length - 1; i > 0; i--){
